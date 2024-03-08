@@ -6,7 +6,7 @@ def load_data(filename):
     with open(filename, 'r') as file:
         return json.load(file)
 
-def wrap_text(text_list, width=40):
+def wrap_text(text_list, width=10):
     return '\n'.join([text_list[i:i+width] for i in range(0, len(text_list), width)])
 
 def generate_report(data, output_file):
@@ -14,7 +14,7 @@ def generate_report(data, output_file):
 
         out.write("Domain Information:\n")
         table = Texttable(max_width=0)
-        headers = ["Domain", "Geo Location", "HSTS", "HTTP Server", "Insecure HTTP", "IPv4 Addresses", "IPv6 Addresses", "Redirect to HTTPS", "Root CA", "Scan Time", "TLS Versions"]
+        headers = ["Domain", "Geo Location", "HSTS", "HTTP Server", "Insecure\nHTTP", "IPv4 Addresses", "IPv6 Addresses", "RDNS Names", "Redirect\nto HTTPS", "Root CA", "Scan Time", "TLS Versions"]
         table.set_cols_align(["l"] * len(headers))
         table.set_cols_valign(["m"] * len(headers))
         table.add_row(headers)
@@ -22,16 +22,17 @@ def generate_report(data, output_file):
         for domain, details in data.items():
             geo_location = '\n'.join(details["geo_locations"])
             hsts = "Yes" if details["hsts"] else "No"
-            http_server = details.get("http_server", "N/A")
+            http_server = wrap_text(str(details.get("http_server", "N/A")), 10)
             insecure_http = "Yes" if details["insecure_http"] else "No"
-            ipv4_addresses = wrap_text(', '.join(details["ipv4_addresses"]))
-            ipv6_addresses = wrap_text(', '.join(details["ipv6_addresses"]))
+            ipv4_addresses = wrap_text(', '.join(details["ipv4_addresses"]), 15)
+            ipv6_addresses = wrap_text(', '.join(details["ipv6_addresses"]), 27)
+            rdns_names = wrap_text(', '.join(details["rdns_names"]), 30)
             redirect_to_https = "Yes" if details["redirect_to_https"] else "No"
-            root_ca = details.get("root_ca", "N/A")
+            root_ca = wrap_text(str(details.get("root_ca", "N/A")), 12)
             scan_time = details.get("scan_time", "N/A")
-            tls_versions = ', '.join(details["tls_versions"])
+            tls_versions = wrap_text(', '.join(details["tls_versions"]), 9)
 
-            table.add_row([domain, geo_location, hsts, http_server, insecure_http, ipv4_addresses, ipv6_addresses, redirect_to_https, root_ca, scan_time, tls_versions])
+            table.add_row([domain, geo_location, hsts, http_server, insecure_http, ipv4_addresses, ipv6_addresses, rdns_names, redirect_to_https, root_ca, scan_time, tls_versions])
         out.write(table.draw() + "\n\n")
 
         # RTT Ranges Section
