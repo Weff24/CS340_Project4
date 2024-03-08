@@ -28,9 +28,6 @@ def get_ip_scan(website, version="ipv4"):
                     result = subprocess.check_output(["nslookup", "-type=AAAA", website, resolver],
                         timeout=2, stderr=subprocess.STDOUT).decode("utf-8")
 
-                # if website == "northwestern.edu": ########################################
-                #     print(result)
-
                 if website in result:
                     for chunk in result.split("Name:")[1:]:
                         address = chunk.split("\n")[1].split("Address:")[1].strip()
@@ -40,7 +37,7 @@ def get_ip_scan(website, version="ipv4"):
                         elif version == "ipv6" and ":" in address:
                             addresses.add(address)
             except Exception as ex:
-                print(ex)
+                # print(ex)
                 continue
 
     return list(addresses)
@@ -57,7 +54,8 @@ def get_rdns_scan(ips):
             for chunk in chunks:
                 dns_names.add(chunk.split("\n")[0].strip())
         except Exception as ex:
-            print(ex)
+            # print(ex)
+            continue
     
     return list(dns_names)
 

@@ -15,7 +15,7 @@ def get_tls_scan(website, remaining_attempts=2):
             if version in result_nmap or version in result_openssl:
                 website_tls.append(version)
     except Exception as ex: 
-        print(ex)
+        # print(ex)
         if remaining_attempts > 0:
             get_tls_scan(website, remaining_attempts - 1)
 
@@ -36,5 +36,5 @@ def get_root_ca(website):
         return result
         
     except Exception as ex:
-        print(ex)
+        # print(ex)
         return None

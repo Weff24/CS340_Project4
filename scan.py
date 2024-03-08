@@ -39,6 +39,7 @@ def main():
 
         website_json["rdns_names"] = get_rdns_scan(website_json["ipv4_addresses"])
 
+        # Commented out because very slow and may not completely work
         # website_json["rtt_range"] = get_rtt_scan(website_json["ipv4_addresses"])
 
         website_json["geo_locations"] = get_loc_scan(website_json["ipv4_addresses"])

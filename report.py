@@ -110,7 +110,6 @@ def generate_report(data, output_file):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python3 report.py [input_file.json] [output_file.txt]")
         sys.exit(1)
 
     input_file = sys.argv[1]
