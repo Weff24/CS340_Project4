@@ -34,10 +34,10 @@ class HTTPScanner:
                 if redirects_remaining > 0:
                     self.get_response(response.url, redirects_remaining - 1)
 
-            if response.url.startswith("https://"):
+            if redirects_remaining > 0 and response.url.startswith("https://"):
                 self.redirect_to_https = True
 
-            if response.headers.get("Strict-Transport-Security"):
+            if redirects_remaining > 0 and response.headers.get("Strict-Transport-Security"):
                 self.hsts = True
 
             self.http_server = response.headers.get("Server")

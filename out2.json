@@ -1,0 +1,833 @@
+{
+    "amazon.com": {
+        "geo_locations": [
+            "Ashburn, Virginia, United States"
+        ],
+        "hsts": true,
+        "http_server": "Server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "54.239.28.85",
+            "205.251.242.103",
+            "52.94.236.248"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "s3-console-us-standard.console.aws.amazon.com.",
+            "103.242.251.205.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709880062.3219478,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "asee.org": {
+        "geo_locations": [
+            "Washington, Virginia, United States"
+        ],
+        "hsts": false,
+        "http_server": "Microsoft-IIS/10.0",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "20.49.104.48"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709880993.512962,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "auditoryneuroscience.com": {
+        "geo_locations": [
+            "Central, Central and Western District, Hong Kong"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.58 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "144.214.26.111"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "111.26.214.144.in-addr.arpa",
+            "twinkle.bms.cityu.edu.hk."
+        ],
+        "redirect_to_https": true,
+        "root_ca": null,
+        "scan_time": 1709880923.0113914,
+        "tls_versions": []
+    },
+    "clocktab.com": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.64.80.1",
+            "172.67.170.124",
+            "104.21.87.176"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "2606:4700:3033::6815:57b0",
+            "2606:4700:3035::ac43:aa7c"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Google Trust Services LLC",
+        "scan_time": 1709880875.403851,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "en.wikipedia.org": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": "mw1479.eqiad.wmnet",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "185.15.59.224",
+            "208.80.153.224",
+            "185.15.58.224",
+            "208.80.154.224"
+        ],
+        "ipv6_addresses": [
+            "2620:0:861:ed1a::1",
+            "2620:0:860:ed1a::1",
+            "2a02:ec80:300:ed1a::1",
+            "2a02:ec80:600:ed1a::1"
+        ],
+        "rdns_names": [
+            "224.154.80.208.in-addr.arpa",
+            "224.153.80.208.in-addr.arpa",
+            "text-lb.drmrs.wikimedia.org.",
+            "text-lb.esams.wikimedia.org.",
+            "text-lb.codfw.wikimedia.org.",
+            "224.59.15.185.in-addr.arpa",
+            "text-lb.eqiad.wikimedia.org.",
+            "224.58.15.185.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709879924.1568685,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "facebook.com": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "157.240.0.35",
+            "157.240.254.35",
+            "157.240.231.35",
+            "157.240.249.35"
+        ],
+        "ipv6_addresses": [
+            "2a03:2880:f177:185:face:b00c:0:25de",
+            "2a03:2880:f177:83:face:b00c:0:25de",
+            "2a03:2880:f103:83:face:b00c:0:25de",
+            "2a03:2880:f175:81:face:b00c:0:25de",
+            "2a03:2880:f175:181:face:b00c:0:25de",
+            "2a03:2880:f169:81:face:b00c:0:25de"
+        ],
+        "rdns_names": [
+            "35.249.240.157.in-addr.arpa",
+            "edge-star-mini-shv-01-ord5.facebook.com.",
+            "35.254.240.157.in-addr.arpa",
+            "edge-star-mini-shv-02-ord5.facebook.com.",
+            "edge-star-mini-shv-02-fra3.facebook.com.",
+            "35.0.240.157.in-addr.arpa",
+            "edge-star-mini-shv-01-fco2.facebook.com.",
+            "35.231.240.157.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709880017.0625653,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "fandom.com": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "199.232.212.194",
+            "199.232.208.194"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709880244.969364,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "gradeinflation.com": {
+        "geo_locations": [
+            "Victoria, British Columbia, Canada"
+        ],
+        "hsts": false,
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "51.79.45.180"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "180.45.79.51.in-addr.arpa",
+            "gw1.ahs5.r4l.com."
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709881047.3342674,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "illinois.edu": {
+        "geo_locations": [
+            "Champaign, Illinois, United States"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.57 (Red Hat Enterprise Linux) OpenSSL/3.0.7",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "130.126.157.20"
+        ],
+        "ipv6_addresses": [
+            "2620:0:e00:4206::14"
+        ],
+        "rdns_names": [
+            "20.157.126.130.in-addr.arpa\tcanonical",
+            "20.0-25.157.126.130.in-addr.arpa.",
+            "alma.techservices.illinois.edu."
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709880778.1788874,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "imdb.com": {
+        "geo_locations": [
+            "Ashburn, Virginia, United States"
+        ],
+        "hsts": true,
+        "http_server": "Server",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "52.94.237.74",
+            "52.94.225.248",
+            "52.94.228.167"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Amazon",
+        "scan_time": 1709880198.3572142,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "instagram.com": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "31.13.66.174",
+            "157.240.0.174",
+            "157.240.252.174",
+            "157.240.249.174",
+            "157.240.231.174",
+            "157.240.254.174"
+        ],
+        "ipv6_addresses": [
+            "2a03:2880:f203:e5:face:b00c:0:4420",
+            "2a03:2880:f269:e6:face:b00c:0:4420",
+            "2a03:2880:f275:e9:face:b00c:0:4420",
+            "2a03:2880:f275:1e9:face:b00c:0:4420",
+            "2a03:2880:f277:1e8:face:b00c:0:4420",
+            "2a03:2880:f277:e2:face:b00c:0:4420"
+        ],
+        "rdns_names": [
+            "instagram-p42-shv-01-fco2.fbcdn.net.",
+            "174.0.240.157.in-addr.arpa",
+            "instagram-p42-shv-01-iad3.fbcdn.net.",
+            "174.254.240.157.in-addr.arpa",
+            "instagram-p42-shv-01-ord5.fbcdn.net.",
+            "instagram-p42-shv-02-fra3.fbcdn.net.",
+            "174.231.240.157.in-addr.arpa",
+            "instagram-p42-shv-01-fra3.fbcdn.net.",
+            "instagram-p42-shv-02-ord5.fbcdn.net.",
+            "174.66.13.31.in-addr.arpa",
+            "174.252.240.157.in-addr.arpa",
+            "174.249.240.157.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709880378.7622879,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "it.eecs.northwestern.edu": {
+        "geo_locations": [
+            "Chicago, Illinois, United States"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.5.142"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "it.ece.northwestern.edu.",
+            "142.5.105.129.in-addr.arpa"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "Unspecified",
+        "scan_time": 1709880671.3546755,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "kellogg.northwestern.edu": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "Microsoft-IIS/10.0",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.147.150"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "www.kellogg.northwestern.edu.",
+            "150.147.124.165.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709880569.0038955,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "kli.org": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.67.132.72",
+            "188.114.96.1",
+            "188.114.97.1",
+            "104.21.4.169",
+            "172.64.80.1"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:130:436c:6f75:6466:6c61:7265",
+            "2606:4700:3033::6815:4a9",
+            "2a06:98c1:3120::1",
+            "2606:4700:3035::ac43:8448",
+            "2a06:98c1:3121::1"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "Google Trust Services LLC",
+        "scan_time": 1709881214.119929,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "mccormick.northwestern.edu": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "Apache/2.4.41 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.149.20"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "davinci20.tech.northwestern.edu.",
+            "20.149.124.165.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709880517.662421,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "northwestern.edu": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.136.48"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "evcommon-caesar-vip.northwestern.edu.",
+            "48.136.105.129.in-addr.arpa",
+            "cnair.northwestern.edu."
+        ],
+        "redirect_to_https": true,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709880469.778077,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "pinterest.com": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.192.84",
+            "151.101.64.84",
+            "151.101.0.84",
+            "151.101.128.84"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709880289.371402,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "pmichaud.com": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.254.203.248"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "248.203.254.23.in-addr.arpa",
+            "hwsrv-233708.hostwindsdns.com."
+        ],
+        "redirect_to_https": false,
+        "root_ca": "COMODO CA Limited",
+        "scan_time": 1709881163.4876482,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "reddit.com": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": "snooserv",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.129.140",
+            "151.101.1.140",
+            "151.101.193.140",
+            "151.101.65.140"
+        ],
+        "ipv6_addresses": [
+            "2a04:4e42:400::396",
+            "2a04:4e42::396",
+            "2a04:4e42:200::396",
+            "2a04:4e42:600::396"
+        ],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709880153.4945052,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "spacejam.com": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": "Apache/2.4.57 () OpenSSL/1.0.2k-fips",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "75.2.104.223",
+            "99.83.180.228"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a259cf76d74e1f65f.awsglobalaccelerator.com.",
+            "228.180.83.99.in-addr.arpa",
+            "223.104.2.75.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709881105.4169552,
+        "tls_versions": [
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "stevetarzia.com": {
+        "geo_locations": [
+            "Columbus, Ohio, United States"
+        ],
+        "hsts": false,
+        "http_server": "Apache/2.4.58 () OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.143.61.245"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "245.61.143.3.in-addr.arpa",
+            "waffles.stevetarzia.com."
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Internet Security Research Group",
+        "scan_time": 1709880827.9987733,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ]
+    },
+    "tripadvisor.com": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "envoy",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "151.101.130.28",
+            "151.101.194.28",
+            "151.101.66.28",
+            "151.101.2.28"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709880334.0138862,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "twitter.com": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": "tsa_b",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.244.42.129",
+            "104.244.42.193",
+            "104.244.42.65",
+            "104.244.42.1"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709879970.4160361,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "uchicago.edu": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.215.148.80"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "ec2-3-215-148-80.compute-1.amazonaws.com.",
+            "80.148.215.3.in-addr.arpa"
+        ],
+        "redirect_to_https": false,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709880721.2027876,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "users.cs.northwestern.edu": {
+        "geo_locations": [],
+        "hsts": false,
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.180.20"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "web1.cs.northwestern.edu.",
+            "20.180.124.165.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "The USERTRUST Network",
+        "scan_time": 1709880618.5756824,
+        "tls_versions": [
+            "TLSv1.2"
+        ]
+    },
+    "walmart.com": {
+        "geo_locations": [],
+        "hsts": true,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.203.41.111",
+            "184.51.216.146",
+            "184.84.129.227",
+            "2.22.41.182",
+            "23.220.132.133",
+            "184.27.182.11",
+            "23.40.125.133",
+            "173.222.252.133",
+            "2.17.212.108"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [
+            "a23-203-41-111.deploy.static.akamaitechnologies.com.",
+            "146.216.51.184.in-addr.arpa",
+            "11.182.27.184.in-addr.arpa",
+            "111.41.203.23.in-addr.arpa",
+            "182.41.22.2.in-addr.arpa",
+            "227.129.84.184.in-addr.arpa",
+            "133.132.220.23.in-addr.arpa",
+            "a23-40-125-133.deploy.static.akamaitechnologies.com.",
+            "a184-84-129-227.deploy.static.akamaitechnologies.com.",
+            "a184-51-216-146.deploy.static.akamaitechnologies.com.",
+            "133.125.40.23.in-addr.arpa",
+            "a173-222-252-133.deploy.static.akamaitechnologies.com.",
+            "a2-22-41-182.deploy.static.akamaitechnologies.com.",
+            "133.252.222.173.in-addr.arpa",
+            "a2-17-212-108.deploy.static.akamaitechnologies.com.",
+            "a184-27-182-11.deploy.static.akamaitechnologies.com.",
+            "a23-220-132-133.deploy.static.akamaitechnologies.com.",
+            "108.212.17.2.in-addr.arpa"
+        ],
+        "redirect_to_https": true,
+        "root_ca": "GlobalSign",
+        "scan_time": 1709880424.147368,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "yelp.com": {
+        "geo_locations": [
+            "Amsterdam, North Holland, Netherlands",
+            "Toronto, Ontario, Canada",
+            "Denver, Colorado, United States"
+        ],
+        "hsts": false,
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "146.75.80.116",
+            "151.101.36.116",
+            "146.75.120.116",
+            "151.101.68.116",
+            "146.75.28.116",
+            "146.75.36.116",
+            "151.101.124.116",
+            "146.75.76.116"
+        ],
+        "ipv6_addresses": [],
+        "rdns_names": [],
+        "redirect_to_https": true,
+        "root_ca": "DigiCert Inc",
+        "scan_time": 1709880108.232607,
+        "tls_versions": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    },
+    "youtube.com": {
+        "geo_locations": [
+            "Mountain View, California, United States"
+        ],
+        "hsts": true,
+        "http_server": "ESF",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.253.115.136",
+            "142.250.190.46",
+            "142.251.32.14",
+            "142.250.191.206",
+            "172.217.4.206",
+            "142.250.150.136",
+            "173.194.73.91",
+            "216.58.207.238",
+            "142.250.191.174",
+            "108.177.14.93",
+            "172.217.1.110",
+            "142.251.35.174",
+            "172.253.115.190",
+            "142.250.190.78",
+            "108.177.14.91",
+            "172.253.115.93",
+            "108.177.14.190",
+            "142.250.150.91",
+            "142.250.150.190",
+            "142.250.150.93",
+            "108.177.14.136",
+            "172.217.168.46",
+            "173.194.73.136",
+            "172.253.115.91",
+            "172.217.5.14",
+            "173.194.73.93",
+            "142.250.191.110",
+            "142.250.190.110",
+            "173.194.73.190",
+            "142.251.40.142",
+            "172.217.2.46"
+        ],
+        "ipv6_addresses": [
+            "2607:f8b0:4004:c0b::88",
+            "2a00:1450:4010:c07::5d",
+            "2607:f8b0:4009:81c::200e",
+            "2607:f8b0:4009:80b::200e",
+            "2607:f8b0:4004:c0b::5d",
+            "2607:f8b0:4009:819::200e",
+            "2a00:1450:4010:c1c::5b",
+            "2a00:1450:4010:c06::88",
+            "2a00:1450:4010:c08::88",
+            "2607:f8b0:4009:801::200e",
+            "2a00:1450:4010:c06::5b",
+            "2a00:1450:4010:c08::be",
+            "2607:f8b0:4009:802::200e",
+            "2607:f8b0:4009:806::200e",
+            "2a00:1450:400a:802::200e",
+            "2a00:1450:4010:c08::5d",
+            "2607:f8b0:4004:c0b::be",
+            "2607:f8b0:4004:c06::be",
+            "2a00:1450:4010:c08::5b",
+            "2607:f8b0:4004:c06::5d",
+            "2a00:1450:4010:c07::88",
+            "2607:f8b0:4009:81a::200e",
+            "2607:f8b0:4009:814::200e",
+            "2607:f8b0:4009:809::200e",
+            "2607:f8b0:4009:80a::200e",
+            "2607:f8b0:4004:c06::88",
+            "2a00:1450:4010:c09::be",
+            "2a00:1450:4010:c1c::88",
+            "2a00:1450:4010:c07::be",
+            "2a00:1450:4010:c1c::5d",
+            "2a00:1450:4010:c09::88",
+            "2a00:1450:4010:c06::5d",
+            "2a00:1450:4010:c09::5d",
+            "2607:f8b0:4009:817::200e",
+            "2a00:1450:4010:c1c::be",
+            "2a00:1450:4010:c09::5b",
+            "2607:f8b0:4004:c0b::5b",
+            "2607:f8b0:4009:807::200e",
+            "2607:f8b0:4004:c06::5b",
+            "2a00:1450:4010:c06::be",
+            "2a00:1450:4010:c07::5b"
+        ],
+        "rdns_names": [
+            "la-in-f93.1e100.net.",
+            "ord38s28-in-f14.1e100.net.",
+            "lt-in-f91.1e100.net.",
+            "lga25s80-in-f14.1e100.net.",
+            "136.150.250.142.in-addr.arpa",
+            "174.191.250.142.in-addr.arpa",
+            "91.73.194.173.in-addr.arpa",
+            "93.150.250.142.in-addr.arpa",
+            "91.14.177.108.in-addr.arpa",
+            "93.14.177.108.in-addr.arpa",
+            "190.14.177.108.in-addr.arpa",
+            "arn09s19-in-f14.1e100.net.",
+            "14.32.251.142.in-addr.arpa",
+            "ord38s33-in-f14.1e100.net.",
+            "ord38s30-in-f14.1e100.net.",
+            "la-in-f136.1e100.net.",
+            "lt-in-f93.1e100.net.",
+            "lt-in-f136.1e100.net.",
+            "238.207.58.216.in-addr.arpa",
+            "lq-in-f190.1e100.net.",
+            "ord37s33-in-f14.1e100.net.",
+            "110.191.250.142.in-addr.arpa",
+            "la-in-f91.1e100.net.",
+            "lq-in-f93.1e100.net.",
+            "93.73.194.173.in-addr.arpa",
+            "142.40.251.142.in-addr.arpa",
+            "ord37s35-in-f14.1e100.net.",
+            "206.191.250.142.in-addr.arpa",
+            "136.14.177.108.in-addr.arpa",
+            "lq-in-f91.1e100.net.",
+            "la-in-f190.1e100.net.",
+            "46.190.250.142.in-addr.arpa",
+            "136.73.194.173.in-addr.arpa",
+            "91.150.250.142.in-addr.arpa",
+            "lt-in-f190.1e100.net.",
+            "lga25s78-in-f14.1e100.net.",
+            "174.35.251.142.in-addr.arpa",
+            "190.150.250.142.in-addr.arpa",
+            "110.190.250.142.in-addr.arpa",
+            "lq-in-f136.1e100.net.",
+            "ord37s34-in-f14.1e100.net.",
+            "78.190.250.142.in-addr.arpa",
+            "190.73.194.173.in-addr.arpa",
+            "ord38s31-in-f14.1e100.net."
+        ],
+        "redirect_to_https": true,
+        "root_ca": "Google Trust Services LLC",
+        "scan_time": 1709879878.8837702,
+        "tls_versions": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ]
+    }
+}
